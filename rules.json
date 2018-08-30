@@ -12,7 +12,7 @@
       "share": ["*[data-stickya*=\"stickyShare\"]"],
       "nav_links": ["*[itemtype*=BreadcrumbList]", "menu"],
       "comments": ["*[data-categoryid=\"Comments\"]"],
-      "more": ["*[class=\"article-crop-shadow\"]"]
+      "more": ["*[class=\"article-crop-shadow\"]", "*[items=\"commentCountArr\"]"]
     },
     "attributes": {
       "inlineJs": [ "onclick", "onerror" ],
