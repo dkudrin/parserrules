@@ -10,7 +10,7 @@
       "empty": [ "*:empty" ],
       "other": [ "*[class*=\"examle-class-substring\"]"],
       "share": ["*[data-stickya=\"stickyShare\"]"], 
-      "nav_links": ["*[itemtype=\"BreadcrumbList\"]"]
+      "nav_links": ["*[itemtype=BreadcrumbList]"]
     },
     "attributes": {
       "inlineJs": [ "onclick", "onerror" ],
