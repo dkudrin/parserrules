@@ -10,7 +10,8 @@
       "empty": [ "*:empty" ],
       "other": [ "*[class*=\"examle-class-substring\"]"],
       "share": ["*[data-stickya*=\"stickyShare\"]"], 
-      "nav_links": ["*[itemtype*=BreadcrumbList]"]
+      "nav_links": ["*[itemtype*=BreadcrumbList]"], 
+      "comments": ["*[data-categoryid=\"Comments\"]"]
     },
     "attributes": {
       "inlineJs": [ "onclick", "onerror" ],
