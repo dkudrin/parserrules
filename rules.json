@@ -8,7 +8,7 @@
       "templates": [ "template" ],
       "hidden": [ "[style*=\"display:none\"]" ],
       "empty": [ "*:empty" ],
-      "other": [ "*[class*=\"examle-class-substring\"]"],
+      "other": [ "*[class*=\"examle-class-substring\"]", "*[section role=\"subscription-barrier\"]"],
       "share": ["*[data-stickya*=\"stickyShare\"]"],
       "nav_links": ["*[itemtype*=BreadcrumbList]", "menu"],
       "comments": ["*[data-categoryid=\"Comments\"]"],
