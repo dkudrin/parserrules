@@ -2,13 +2,14 @@
   "remove": {
     "elements": {
       "htmlTags": [ "script", "noscript", "style", "link", "svg", "canvas" ],
-      "html5Tags": [ "footer", "aside", "nav" ],
+      "html5Tags": [ "footer", "aside", "nav", "stickyShare" ],
       "forms": [ "form", "fieldset", "button", "select", "input", "textarea" ],
       "embed": [ "embed", "object" ],
       "templates": [ "template" ],
       "hidden": [ "[style*=\"display:none\"]" ],
       "empty": [ "*:empty" ],
-      "other": [ "*[class*=\"examle-class-substring\"]"]
+      "other": [ "*[class*=\"examle-class-substring\"]"],
+      "share": ["*[data-stickya=\"stickyShare\"]"]
     },
     "attributes": {
       "inlineJs": [ "onclick", "onerror" ],
