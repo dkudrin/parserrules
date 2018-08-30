@@ -11,7 +11,8 @@
       "other": [ "*[class*=\"examle-class-substring\"]"],
       "share": ["*[data-stickya*=\"stickyShare\"]"], 
       "nav_links": ["*[itemtype*=BreadcrumbList]", "menu"], 
-      "comments": ["*[data-categoryid=\"Comments\"]"]
+      "comments": ["*[data-categoryid=\"Comments\"]"], 
+      "more": ["*[class=\"article-crop-shadow\"]"]
     },
     "attributes": {
       "inlineJs": [ "onclick", "onerror" ],
