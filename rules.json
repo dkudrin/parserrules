@@ -9,7 +9,8 @@
       "hidden": [ "[style*=\"display:none\"]" ],
       "empty": [ "*:empty" ],
       "other": [ "*[class*=\"examle-class-substring\"]"],
-      "share": ["*[data-stickya*=\"stickyShare\"]"]
+      "share": ["*[data-stickya*=\"stickyShare\"]"],
+      "nav_links": ["*[itemtype*=BreadcrumbList]"]
     },
     "attributes": {
       "inlineJs": [ "onclick", "onerror" ],
