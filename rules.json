@@ -9,9 +9,9 @@
       "hidden": [ "[style*=\"display:none\"]" ],
       "empty": [ "*:empty" ],
       "other": [ "*[class*=\"examle-class-substring\"]"],
-      "share": ["*[data-stickya*=\"stickyShare\"]"], 
-      "nav_links": ["*[itemtype*=BreadcrumbList]", "menu"], 
-      "comments": ["*[data-categoryid=\"Comments\"]"], 
+      "share": ["*[data-stickya*=\"stickyShare\"]"],
+      "nav_links": ["*[itemtype*=BreadcrumbList]", "menu"],
+      "comments": ["*[data-categoryid=\"Comments\"]"],
       "more": ["*[class=\"article-crop-shadow\"]"]
     },
     "attributes": {
