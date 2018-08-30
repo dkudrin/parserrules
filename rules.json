@@ -2,7 +2,7 @@
   "remove": {
     "elements": {
       "htmlTags": [ "script", "noscript", "style", "link", "svg", "canvas" ],
-      "html5Tags": [ "footer", "aside", "nav", "stickyShare" ],
+      "html5Tags": [ "footer", "aside", "nav", "stickyShare", "amp-timeago" ],
       "forms": [ "form", "fieldset", "button", "select", "input", "textarea" ],
       "embed": [ "embed", "object" ],
       "templates": [ "template" ],
