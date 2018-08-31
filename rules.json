@@ -1,7 +1,18 @@
 {
   "remove": {
     "elements": {
-      "htmlTags": [ "script" ]
+      "htmlTags": [ "script", "noscript", "style", "link", "svg", "canvas" ],
+       "html5Tags": [ "footer", "aside", "nav", "stickyShare", "amp-timeago", "amp-facebook-like", "header" ],
+       "forms": [ "form", "fieldset", "button", "select", "input", "textarea" ],
+       "embed": [ "embed", "object" ],
+       "templates": [ "template" ],
+       "hidden": [ "[style*=\"display:none\"]" ],
+       "empty": [ "*:empty" ],
+       "other": [ "*[class*=\"examle-class-substring\"]"],
+       "share": ["*[data-stickya*=\"stickyShare\"]"],
+       "nav_links": ["*[itemtype*=BreadcrumbList]", "menu"],
+       "comments": ["*[data-categoryid=\"Comments\"]"],
+       "more": ["*[items=\"commentCountArr\"]"]
     },
     "attributes": {
       "inlineJs": [ "onclick", "onerror" ],
