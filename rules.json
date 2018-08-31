@@ -23,7 +23,7 @@
                      "pager", "popup", "yom-remote" ],
         "starts": [],
         "ends": []
-      },
+      }
     },
     "attributes": {
       "inlineJs": [ "onclick", "onerror" ],
