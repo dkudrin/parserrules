@@ -3,7 +3,7 @@
     "elements": {
       "bySelector": {
         "htmlTags": [ "script", "noscript", "style", "link" ],
-        "html5Tags": [ "footer", "aside", "nav", "stickyShare", "amp-timeago", "amp-facebook-like", "header" ],
+        "html5Tags": [ "footer", "aside", "nav", "amp-timeago", "amp-facebook-like", "header" ],
         "forms": [ "form", "fieldset", "button", "select", "input", "textarea" ],
         "embed": [ "embed", "object" ],
         "templates": [ "template" ],
@@ -17,17 +17,34 @@
         "svg": ["svg", "canvas", "img[src$=\".svg\"]"]
       },
       "ifClassOrId": {
-        "contains": [ "-ad-", "banner", "breadcrumbs", "combx", "comment", "community",
-                     "cover-wrap", "disqus", "extra", "foot", "header", "legends", "menu",
-                     "related", "remark", "replies", "rss", "shoutbox", "sidebar", "skyscraper",
-                     "social", "sponsor", "supplemental", "ad-break", "agegate", "pagination", 
-                     "pager", "popup", "yom-remote", "subscription-barrier" ],
+        "contains": [
+          "-ad-", "banner", "breadcrumbs", "combx", "comment", "community",
+          "cover-wrap", "disqus", "extra", "foot", "header", "legends", "menu",
+          "related", "remark", "replies", "rss", "shoutbox", "sidebar", "skyscraper",
+          "social", "sponsor", "supplemental", "ad-break", "agegate", "pagination", 
+          "pager", "popup", "yom-remote", "subscription-barrier", "share", "footer",
+          "footnote", "hidden", "contact", "scroll", "shopping", "tags", "widget",
+          "print", "discuss", "mail", "login", "reply", "sign", "next", "continue",
+          "weiter", "prev", "earl"
+                    ],
         "starts": [],
         "ends": []
       }
     },
     "attributes": {
-      "inlineJs": [ "onclick", "onerror", "onblur", "onchange", "oncontextmenu", "onfocus", "oninput", "oninvalid", "onreset", "onsearch", "onselect", "onsubmit", "onkeydown", "onkeypress", "onkeyup", "onclick", "ondblclick", "onmousedown", "onmousemove", "onmouseout", "onmouseover", "onmouseup", "onmousewheel", "onwheel", "ondrag", "ondragend", "ondragenter", "ondragleave", "ondragover", "ondragstart", "ondrop", "onscroll", "oncopy", "oncut", "onpaste", "onabort", "oncanplay", "oncanplaythrough", "oncuechange", "ondurationchange", "onemptied", "onended", "onerror", "onloadeddata", "onloadedmetadata", "onloadstart", "onpause", "onplay", "onplaying", "onprogress", "onratechange", "onseeked", "onseeking", "onstalled", "onsuspend", "ontimeupdate", "onvolumechange", "onwaiting", "ontoggle"],
+      "inlineJs": [
+        "onclick", "onerror", "onblur", "onchange", "oncontextmenu", "onfocus",
+        "oninput", "oninvalid", "onreset", "onsearch", "onselect", "onsubmit",
+        "onkeydown", "onkeypress", "onkeyup", "onclick", "ondblclick", "onmousedown",
+        "onmousemove", "onmouseout", "onmouseover", "onmouseup", "onmousewheel",
+        "onwheel", "ondrag", "ondragend", "ondragenter", "ondragleave", "ondragover",
+        "ondragstart", "ondrop", "onscroll", "oncopy", "oncut", "onpaste", "onabort",
+        "oncanplay", "oncanplaythrough", "oncuechange", "ondurationchange", "onemptied",
+        "onended", "onerror", "onloadeddata", "onloadedmetadata", "onloadstart",
+        "onpause", "onplay", "onplaying", "onprogress", "onratechange", "onseeked",
+        "onseeking", "onstalled", "onsuspend", "ontimeupdate", "onvolumechange",
+        "onwaiting", "ontoggle"
+      ],
       "inlineCss": [ "style", "width", "height" ],
       "ids": [ "id", "class" ]
     }
