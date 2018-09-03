@@ -14,7 +14,7 @@
         "nav_links": ["*[itemtype*=BreadcrumbList]", "menu"],
         "comments": ["*[data-categoryid=\"Comments\"]"],
         "more": ["*[items=\"commentCountArr\"]"],
-        "svg": ["svg", "canvas", "img:[src$=\".svg\"]"]
+        "svg": ["svg", "canvas", "img[src$=\".svg\"]"]
       },
       "ifClassOrId": {
         "contains": [ "-ad-", "banner", "breadcrumbs", "combx", "comment", "community",
