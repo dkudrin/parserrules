@@ -2,7 +2,7 @@
   "remove": {
     "elements": {
       "bySelector": {
-        "htmlTags": [ "script", "noscript", "style", "link", "svg", "canvas" ],
+        "htmlTags": [ "script", "noscript", "style", "link" ],
         "html5Tags": [ "footer", "aside", "nav", "stickyShare", "amp-timeago", "amp-facebook-like", "header" ],
         "forms": [ "form", "fieldset", "button", "select", "input", "textarea" ],
         "embed": [ "embed", "object" ],
@@ -13,7 +13,8 @@
         "share": ["*[data-stickya*=\"stickyShare\"]"],
         "nav_links": ["*[itemtype*=BreadcrumbList]", "menu"],
         "comments": ["*[data-categoryid=\"Comments\"]"],
-        "more": ["*[items=\"commentCountArr\"]"]
+        "more": ["*[items=\"commentCountArr\"]"],
+        "svg": ["svg", "canvas", "img:[src$=\".svg\"]"]
       },
       "ifClassOrId": {
         "contains": [ "-ad-", "banner", "breadcrumbs", "combx", "comment", "community",
