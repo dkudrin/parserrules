@@ -25,7 +25,7 @@
           "pager", "popup", "yom-remote", "subscription-barrier", "share", "footer",
           "footnote", "hidden", "contact", "scroll", "shopping", "tags", "widget",
           "print", "discuss", "mail", "login", "reply", "sign", "next", "continue",
-          "weiter", "prev", "earl"
+          "weiter", "prev", "earl", "comments-btn"
                     ],
         "starts": [],
         "ends": []
