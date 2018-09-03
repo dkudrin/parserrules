@@ -30,5 +30,49 @@
       "inlineCss": [ "style", "width", "height" ],
       "ids": [ "id", "class" ]
     }
+  },
+  "select": {    
+    "metatags": {
+      "title" :  {
+        "byTagProps": [
+          "dc:title",
+          "dcterm:title",
+          "og:title",
+          "weibo:article:title",
+          "weibo:webpage:title",
+          "title",
+          "twitter:title"
+        ],
+        "byTagNames": [
+          "title"
+        ]
+      },
+      "description": {
+        "byTagProps": [
+          "dc:description",
+          "dcterm:description",
+          "og:description",
+          "weibo:article:description",
+          "weibo:webpage:description",
+          "description",
+          "twitter:description"
+        ]
+      },
+      "byline": {
+        "byTagProps": [
+          "dc:creator",
+          "dcterm:creator",
+          "article:author_name"
+        ],
+        "byTagNames": [
+          "author"
+        ]
+      },
+      "publishedTime": {
+        "byTagProps": [
+          "article:published_time"
+        ]
+      }
+    }
   }
 }
