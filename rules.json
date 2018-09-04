@@ -11,7 +11,7 @@
         "empty": [ "*:not(img):empty" ],
         "other": [ "*[class*=\"examle-class-substring\"]"],
         "share": ["*[data-stickya*=\"stickyShare\"]"],
-        "nav_links": ["*[itemtype*=BreadcrumbList]", "menu", "*[div id=\"nav\"]"],
+        "nav_links": ["*[itemtype*=BreadcrumbList]", "menu", "*[div id*=\"nav\"]"],
         "comments": ["*[data-categoryid=\"Comments\"]"],
         "more": ["*[items=\"commentCountArr\"]"],
         "svg": ["svg", "canvas", "img[src$=\".svg\"]"]
@@ -25,7 +25,7 @@
           "pager", "popup", "yom-remote", "subscription-barrier", "share", "footer",
           "footnote", "hidden", "contact", "scroll", "shopping", "tags", "widget",
           "print", "discuss", "mail", "login", "reply", "sign", "next", "continue",
-          "weiter", "prev", "earl", "comments-btn", "download", "Subscribe"
+          "weiter", "prev", "earl", "comments-btn", "download", "Subscribe", "?page"
                     ],
         "starts": [],
         "ends": []
