@@ -11,7 +11,7 @@
         "empty": [ "*:not(img):empty" ],
         "other": [ "*[class*=\"examle-class-substring\"]"],
         "share": ["*[data-stickya*=\"stickyShare\"]"],
-        "nav_links": ["*[itemtype*=BreadcrumbList]", "menu"],
+        "nav_links": ["*[itemtype*=BreadcrumbList]", "menu", "*[div id=\"nav\"]"],
         "comments": ["*[data-categoryid=\"Comments\"]"],
         "more": ["*[items=\"commentCountArr\"]"],
         "svg": ["svg", "canvas", "img[src$=\".svg\"]"]
