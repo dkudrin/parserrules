@@ -1,0 +1,96 @@
+{
+  "remove": {
+    "elements": {
+      "bySelector": {
+        "htmlTags": [ "script", "noscript", "style", "link" ],
+        "html5Tags": [ "footer", "aside", "nav", "amp-timeago", "amp-facebook-like", "header" ],
+        "forms": [ "form", "fieldset", "button", "select", "input", "textarea" ],
+        "embed": [ "embed", "object" ],
+        "templates": [ "template" ],
+        "hidden": [ "[style*=\"display:none\"]" ],
+        "empty": [ "*:not(img):empty" ],
+        "other": [ "*[class*=\"examle-class-substring\"]"],
+        "share": ["*[data-stickya*=\"stickyShare\"]"],
+        "nav_links": ["*[itemtype*=BreadcrumbList]", "menu", "div[id*=\"nav\"]"],
+        "comments": ["*[data-categoryid=\"Comments\"]"],
+        "more": ["*[items=\"commentCountArr\"]"],
+        "svg": ["svg", "canvas", "img[src$=\".svg\"]"]
+      },
+      "ifClassOrId": {
+        "contains": [
+          "-ad-", "banner", "breadcrumbs", "combx", "comment", "community",
+          "cover-wrap", "disqus", "extra", "foot", "header", "legends", "menu",
+          "related", "remark", "replies", "rss", "shoutbox", "sidebar", "skyscraper",
+          "social", "sponsor", "supplemental", "ad-break", "agegate", "pagination", 
+          "pager", "popup", "yom-remote", "subscription-barrier", "share", "footer",
+          "footnote", "hidden", "contact", "scroll", "shopping", "tags", "widget",
+          "print", "discuss", "mail", "login", "reply", "sign", "next", "continue",
+          "weiter", "prev", "earl", "comments-btn", "download", "Subscribe", "?page"
+                    ],
+        "starts": [],
+        "ends": []
+      }
+    },
+    "attributes": {
+      "inlineJs": [
+        "onclick", "onerror", "onblur", "onchange", "oncontextmenu", "onfocus",
+        "oninput", "oninvalid", "onreset", "onsearch", "onselect", "onsubmit",
+        "onkeydown", "onkeypress", "onkeyup", "onclick", "ondblclick", "onmousedown",
+        "onmousemove", "onmouseout", "onmouseover", "onmouseup", "onmousewheel",
+        "onwheel", "ondrag", "ondragend", "ondragenter", "ondragleave", "ondragover",
+        "ondragstart", "ondrop", "onscroll", "oncopy", "oncut", "onpaste", "onabort",
+        "oncanplay", "oncanplaythrough", "oncuechange", "ondurationchange", "onemptied",
+        "onended", "onerror", "onloadeddata", "onloadedmetadata", "onloadstart",
+        "onpause", "onplay", "onplaying", "onprogress", "onratechange", "onseeked",
+        "onseeking", "onstalled", "onsuspend", "ontimeupdate", "onvolumechange",
+        "onwaiting", "ontoggle"
+      ],
+      "inlineCss": [ "style", "width", "height" ],
+      "ids": [ "id", "class" ]
+    }
+  },
+  "select": {    
+    "metatags": {
+      "title" :  {
+        "byTagProps": [
+          "dc:title",
+          "dcterm:title",
+          "og:title",
+          "weibo:article:title",
+          "weibo:webpage:title",
+          "title",
+          "twitter:title"
+        ],
+        "byTagNames": [
+          "title"
+        ]
+      },
+      "description": {
+        "byTagProps": [
+          "dc:description",
+          "dcterm:description",
+          "og:description",
+          "weibo:article:description",
+          "weibo:webpage:description",
+          "description",
+          "twitter:description"
+        ]
+      },
+      "byline": {
+        "byTagProps": [
+          "dc:creator",
+          "dcterm:creator",
+          "article:author_name"
+        ],
+        "byTagNames": [
+          "author"
+        ]
+      },
+      "publishedTime": {
+        "byTagProps": [
+          "article:published_time"
+        ]
+      }
+    }
+  }
+}
