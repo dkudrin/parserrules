@@ -161,7 +161,8 @@
         "onwaiting", "ontoggle"
       ],
       "inlineCss": [ "style", "width", "height" ],
-      "ids": [ "id", "class" ]
+      "ids": [ "id", "class" ],
+      "other": [ "autoplay" ]
     }
   },
   "select": {    
