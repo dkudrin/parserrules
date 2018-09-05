@@ -5,10 +5,14 @@
         "htmlTags": [ "script", "noscript", "style", "link" ],
         "html5Tags": [ "footer", "aside", "nav", "amp-timeago", "amp-facebook-like", "header" ],
         "forms": [ "form", "fieldset", "button", "select", "input", "textarea" ],
-        "embed": [ "embed", "object", "applet" ],
+        "embed": [ 
+          "embed",
+          "object",
+          "iframe:not([src*=\"youtube.com/embed/\"])"
+        ],
         "templates": [ "template" ],
         "hidden": [ "[style*=\"display:none\"]" ],
-        "old": [ "basefont", "blink", "bgsound", "command", "dir", "element", "keygen", "listing", "shadow" ],
+        "old": [ "basefont", "blink", "bgsound", "command", "dir", "element", "keygen", "listing", "shadow", "applet" ],
         "empty": [ 
           "a:empty",
           "abbr:empty",
