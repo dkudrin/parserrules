@@ -2,7 +2,7 @@
   "remove": {
     "elements": {
       "bySelector": {
-        "htmlTags": [ "script", "noscript", "style", "link", "meta" ],
+        "htmlTags": [ "script", "noscript", "style", "link", "meta", "noindex" ],
         "html5Tags": [ "footer", "aside", "nav", "amp-timeago", "amp-facebook-like", "header" ],
         "forms": [ "form", "fieldset", "button", "select", "input", "textarea" ],
         "embed": [ 
@@ -123,7 +123,7 @@
         ],
         "other": [ "*[class*=\"examle-class-substring\"]"],
         "share": ["*[data-stickya*=\"stickyShare\"]"],
-        "nav_links": ["*[itemtype*=BreadcrumbList]", "menu", "div[id*=\"nav\"]", "div[class*=\"b-white sausage mb20\"]"],
+        "nav_links": ["*[itemtype*=BreadcrumbList]", "menu", "div[id*=\"nav\"]"],
         "comments": ["*[data-categoryid=\"Comments\"]"],
         "more": ["*[items=\"commentCountArr\"]"],
         "svg": ["svg", "canvas", "img[src$=\".svg\"]"]
