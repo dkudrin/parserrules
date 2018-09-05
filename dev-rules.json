@@ -119,7 +119,7 @@
           "var:empty",
           "video:empty",
           "wbr:empty",
-          "xmp:empty",
+          "xmp:empty"
         ],
         "other": [ "*[class*=\"examle-class-substring\"]"],
         "share": ["*[data-stickya*=\"stickyShare\"]"],
