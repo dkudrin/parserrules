@@ -8,7 +8,7 @@
         "embed": [ "embed", "object" ],
         "templates": [ "template" ],
         "hidden": [ "[style*=\"display:none\"]" ],
-        "empty": [ "*:not(img):empty" ],
+        "empty": [ "*:not(img,iframe[src*=\"youtube.com/embed/\"]):empty" ],
         "other": [ "*[class*=\"examle-class-substring\"]"],
         "share": ["*[data-stickya*=\"stickyShare\"]"],
         "nav_links": ["*[itemtype*=BreadcrumbList]", "menu", "div[id*=\"nav\"]"],
