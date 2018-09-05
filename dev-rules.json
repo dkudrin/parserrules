@@ -2,7 +2,7 @@
   "remove": {
     "elements": {
       "bySelector": {
-        "htmlTags": [ "script", "noscript", "style", "link" ],
+        "htmlTags": [ "script", "noscript", "style", "link", "meta" ],
         "html5Tags": [ "footer", "aside", "nav", "amp-timeago", "amp-facebook-like", "header" ],
         "forms": [ "form", "fieldset", "button", "select", "input", "textarea" ],
         "embed": [ 
@@ -69,7 +69,6 @@
           "marquee:empty",
           "menu:empty",
           "menuitem:empty",
-          "meta:empty",
           "meter:empty",
           "multicol:empty",
           "nav:empty",
