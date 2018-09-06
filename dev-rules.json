@@ -8,7 +8,7 @@
         "embed": [ 
           "embed",
           "object",
-          "iframe:not([src*=\"youtube.com/embed/\"]):not([data-lazy-src*=\"youtube.com/embed/\"]):not([src*=\"player.vimeo.com/video/\"]):not([src*=\"rutube.ru/play/embed\"]):not([src*=\"my.mail.ru/video/embed\"])"
+          "iframe:not([src*=\"youtube.com/embed/\"]):not([src*=\"player.vimeo.com/video/\"]):not([src*=\"rutube.ru/play/embed\"]):not([src*=\"my.mail.ru/video/embed\"])"
         ],
         "templates": [ "template" ],
         "hidden": [ "[style*=\"display:none\"]" ],
@@ -204,6 +204,12 @@
           "article:published_time"
         ]
       }
-    }
+    },
+    "lazyVideos": [
+      {
+        selector: "iframe[data-lazy-src*=\"youtube.com/embed/\"]",
+        attr: "data-lazy-src"
+      }
+    ]   
   }
 }
