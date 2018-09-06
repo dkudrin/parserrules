@@ -219,7 +219,8 @@
       {
         "selector": "*[style*=\"background-image:url\"]",
         "attribute": "style",
-        "regexp": "background-image:url\\('(.+?)'\\)"
+        "regexp": "background-image:url\\('(.+?)'\\)",
+        "regexpGroup": "1"
       }
     ]
   }
