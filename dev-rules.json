@@ -213,7 +213,7 @@
     ],
     "lazyImages": [
       {
-        "selector": "img[data-src$=\".jpg\"], img[data-src$=\".png\"], img[data-src$=\".webp\"]",
+        "selector": "img[data-src*=\".jpg\"], img[data-src*=\".png\"], img[data-src*=\".webp\"]",
         "attribute": "data-src"
       }
     ]
