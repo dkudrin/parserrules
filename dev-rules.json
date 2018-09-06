@@ -121,7 +121,7 @@
           "wbr:empty",
           "xmp:empty"
         ],
-        "other": [ "*[class*=\"examle-class-substring\"]"],
+        "other": [ "*[class*=\"examle-class-substring\"]", "div[class*=\"sun-row\"]"],
         "share": ["*[data-stickya*=\"stickyShare\"]"],
         "nav_links": ["*[itemtype*=BreadcrumbList]", "menu", "div[id*=\"nav\"]"],
         "comments": ["*[data-categoryid=\"Comments\"]"],
