@@ -217,7 +217,7 @@
         "attribute": "data-src"
       },
       {
-        "selector": "*[style*=\"background-image:url\"]",
+        "selector": "*[style*=\"background-image:url\"], *[style*=\"background-image: url\"]",
         "attribute": "style",
         "regexp": "background-image:\\s?url\\('?(.+?)'?\\)",
         "regexpGroup": "1"
