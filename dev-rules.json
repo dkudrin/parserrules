@@ -210,6 +210,12 @@
         "selector": "iframe[data-lazy-src*=\"youtube.com/embed/\"]",
         "attribute": "data-lazy-src"
       }
-    ]   
+    ],
+    "lazyImages": [
+      {
+        "selector": "img[data-src$=\".jpg\"], img[data-src$=\".png\"], img[data-src$=\".webp\"]",
+        "attribute": "data-src"
+      }
+    ]
   }
 }
