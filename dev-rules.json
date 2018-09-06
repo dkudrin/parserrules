@@ -207,8 +207,8 @@
     },
     "lazyVideos": [
       {
-        selector: "iframe[data-lazy-src*=\"youtube.com/embed/\"]",
-        attr: "data-lazy-src"
+        "selector": "iframe[data-lazy-src*=\"youtube.com/embed/\"]",
+        "attr": "data-lazy-src"
       }
     ]   
   }
