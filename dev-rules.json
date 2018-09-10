@@ -203,6 +203,17 @@
         "byTagProps": [
           "article:published_time"
         ]
+      },
+      "fragment": {
+        "byTagNames": [
+          "fragment"
+        ]
+      },
+      "image": {
+        "byTagProps": [
+          "og:image",
+          "twitter:image"
+        ]
       }
     },
     "lazyVideos": [
